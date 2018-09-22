@@ -11,7 +11,7 @@
 
 <div class="container">
 	<h1><img src="logo.svg">Participants List</h1>
-<p id="top">Enter your contact details to add and click on individual cells to edit <span class="oi oi-pencil" title="icon name" aria-hidden="true"></span>.</p>
+<p id="top">Enter your contact details to add and click on individual cells to edit <img src="pencil.svg" alt="pencil"></span>.</p>
 <p id='demo'></p>	
   <div class="form-row">
     <div class="col-2">
@@ -52,14 +52,14 @@
       <td contenteditable="true">Doe</td>
       <td contenteditable="true">johndoe@gmail.com</td>
       <td contenteditable="true">022222</td>
-      <td><button class="btn btn-danger" type="button" value="X" onclick="deleteRow(this)"><span class="oi oi-trash" title="icon name" aria-hidden="true"></span></button></td>
+      <td><button class="btn btn-danger" type="button" value="X" onclick="deleteRow(this)"><img src="trash.svg" alt="trash"/></button></td>
     </tr>
     <tr id="go">
       <td contenteditable="true">Janet</td>
       <td contenteditable="true">Doe</td>
       <td contenteditable="true">janet@gmail.com</td>
       <td contenteditable="true">024422</td>
-      <td><button id="dele" class="btn btn-danger" type="button" value="X" onclick="deleteRow(this)"><span class="oi oi-trash" title="icon name" aria-hidden="true"></span></button></td>
+      <td><button id="dele" class="btn btn-danger" type="button" value="X" onclick="deleteRow(this)"><img src="trash.svg" alt="trash"/></button></td>
       
     </tr>
        </tbody>
@@ -103,7 +103,7 @@
     cell2.innerHTML = lastName;
     cell3.innerHTML = Email;
     cell4.innerHTML = Phone;
-    cell5.innerHTML = "<button id='dele' class='btn btn-danger' type='button' value='X' onclick='deleteRow(this)'><span class='oi oi-trash' title='icon name' aria-hidden='true'></span></button>";
+    cell5.innerHTML = "<button id='dele' class='btn btn-danger' type='button' value='X' onclick='deleteRow(this)'><img src="trash.svg" alt="trash"/></button>";
  
  } else{
  	alert('Missing fields. Please enter all fields');
