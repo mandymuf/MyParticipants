@@ -16,10 +16,14 @@ body, .add, .at{
 	background-color: white;
 
 }
-img{
+#logo{
 	width: 140px;
 	height: 150px;
 	padding-right: 20px;
+}
+#icon{
+	width:60px;
+	height:70px;
 }
 #top{
 	font-family: 'Noto Sans', sans-serif;
